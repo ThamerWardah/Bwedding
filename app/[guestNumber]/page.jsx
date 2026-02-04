@@ -31,7 +31,7 @@ export default function Light(){
   const audioRef = useRef(null)
 
   // Wedding date
-  const WEDDING_DATE = new Date('2025-12-19T16:00:00')
+  const WEDDING_DATE = new Date('2026-02-19T16:00:00')
 
   // Device fingerprint function
   const generateDeviceFingerprint = () => {
@@ -173,14 +173,14 @@ export default function Light(){
   // Translation texts
   const t = useMemo(() => ({
     ar: {
-      title: 'افراح العتيبي والظاهر',
+      title: 'علي و فاطمة',
       welcome: 'مرحباً بك',
       guestName: 'ضيفنا الكريم',
-      couple: 'خالد ❤️ بيار',
-      groom: 'خالد',
-      bride: 'بيار',
+      couple: 'علي ❤️ فاطمة',
+      groom: 'علي',
+      bride: 'فاطمة',
       message: 'في هذه الليلة يكتمل الحُلم وتُتَوَّج اسطورة حُبنا, فكونوا معنا شهودًا على فرحتنا',
-      date: 'الجمعة 19 ديسمبر 2025',
+      date: 'الجمعة 19 فبراير 2026',
       time: 'الساعة السابعة مساءً',
       location: 'البصرة - قاعة فندق جراند ملينيوم السيف',
       countdown: 'العد التنازلي ليوم الزفاف',
@@ -192,7 +192,7 @@ export default function Light(){
       hours: 'ساعة',
       minutes: 'دقيقة',
       seconds: 'ثانية',
-      quote: 'من لُجَّ الكويت لشواطئ البصرة دانة الدُنا بين يدي المَعشوق',
+      quote: 'بكِ اكتمل نصفي، وبحبكِ اكتمل وجودي',
       loading: 'جاري تحميل الدعوة...',
       preparing: 'استعدوا لأجمل ليلة في العمر',
       clickAnywhere: 'انقر في أي مكان',
@@ -233,7 +233,7 @@ export default function Light(){
       hours: 'Hours',
       minutes: 'Minutes',
       seconds: 'Seconds',
-      quote: 'From the depths of Kuwait to the shores of Basra, our precious pearl in the hands of the beloved',
+      quote: 'Two souls, one heart, forever intertwined.',
       loading: 'Loading Invitation...',
       preparing: 'Get ready for the most beautiful night of your life',
       clickAnywhere: 'Click anywhere',
@@ -736,7 +736,7 @@ export default function Light(){
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.9 }}
         style={{
-          backgroundImage: `url(./h2.jpg)`,
+          backgroundImage: `url(./h3.jpg)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -746,7 +746,7 @@ export default function Light(){
         <div className="text-center mb-4 mt-2">
           <div className="bg-white/10 rounded-lg px-4 py-2 inline-flex items-center gap-2 backdrop-blur-sm border border-white/10">
             <span className="text-white font-semibold text-lg">
-              {lang === 'ar' ? '١٩ ديسمبر ٢٠٢٥ - ٤:٠٠ مساءً' : 'December 19, 2025 - 4:00 PM'}
+              {lang === 'ar' ? '١٩ فبراير ٢٠٢٦ - ٤:٠٠ مساءً' : 'December 19, 2025 - 4:00 PM'}
             </span>
           </div>
         </div>
@@ -788,7 +788,7 @@ export default function Light(){
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.9 }}
         style={{
-          backgroundImage: `url(./h2.jpg)`,
+          backgroundImage: `url(./h3.jpg)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
