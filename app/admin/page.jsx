@@ -95,7 +95,7 @@ export default function AdminDashboard() {
     loadRSVPs();
 
     // Refresh every 30 seconds
-    const interval = setInterval(loadRSVPs, 30000);
+    const interval = setInterval(loadRSVPs, 120000);
     return () => clearInterval(interval);
   }, [isAuthenticated]);
 
