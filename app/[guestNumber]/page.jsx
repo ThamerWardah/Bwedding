@@ -745,7 +745,7 @@ export default function Light(){
         {/* Simple Wedding Date - Matching Countdown Style */}
         <div className="text-center mb-4 mt-2">
           <div className="bg-white/10 rounded-lg px-4 py-2 inline-flex items-center gap-2 backdrop-blur-sm border border-white/10">
-            <span className="text-white font-semibold text-lg">
+            <span className="text-green-900 font-semibold text-lg">
               {lang === 'ar' ? '١٩ فبراير ٢٠٢٦ - ٤:٠٠ مساءً' : 'December 19, 2025 - 4:00 PM'}
             </span>
           </div>
@@ -762,10 +762,10 @@ export default function Light(){
                 key={key}
                 className="bg-white/15 rounded-lg px-2 text-center py-3 min-w-[50px] backdrop-blur-sm border border-white/10"
               >
-                <p className="text-lg font-bold text-white">
+                <p className="text-lg font-bold text-yellow-700">
                   {timeLeft[key] ?? '--'}
                 </p>
-                <p className="text-sm text-white/80 mt-1 font-light">
+                <p className="text-sm text-gray-400 mt-1 font-light">
                   {t[key]}
                 </p>
               </div>
